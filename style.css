@@ -1,0 +1,221 @@
+body {
+    background-color: black;
+    margin: 0 15%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: xx-large;
+    margin: 5px;
+}
+
+h4 a {
+    margin: 5px 3px 5px 3px;
+    color: seashell;
+    font-size: larger;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+h4 a:hover {
+    opacity: 1.0;
+    color: white;
+    text-decoration: underline;
+}
+
+a {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+h5 {
+    font-size: larger;
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 2px 0px 0px 0px;
+    height: 65px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 245, 238, 0.5);
+    z-index: 6;
+}
+
+.logo {
+    background-image: url(img-tea-cozy-logo.png);
+    height: 50px;
+    width: 157px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: seashell;
+    opacity: 0.5;
+    text-decoration: underline;
+    padding: 0 10px;
+}
+
+li a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: seashell;
+    opacity: 1.0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li a:active {
+    opacity: 1.0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li  {
+    display: inline-block;
+}
+
+.banner {
+    background-image: url(img-mission-background.jpg);
+    height: 700px;
+    width: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    margin: auto;
+}
+
+.banner-text {
+    background-color: black;
+    height: fit-content;
+    width: -moz-available;
+    width: fill-available;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+.tea-month {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.month-header {
+    margin: auto;
+    margin-bottom: 30px;
+    height: fit-content;
+    width: -moz-available;
+    width: fill-available;
+    width: -webkit-fill-available;
+    opacity: 0.5;
+}
+
+.tea-types {
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 40px;
+    opacity: 0.6;
+}
+
+.fall, .spiced, .seasonal, .myrtle, .bedford, a {
+    margin-bottom: 10px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.fall, .spiced, .seasonal, .myrtle, .bedford, a:hover {
+    opacity: 1.0;
+    color: white;
+}
+
+.fall {
+    background-image: url(img-berryblitz.jpg);
+}
+
+.spiced {
+    background-image: url(img-spiced-rum.jpg);
+}
+
+.seasonal {
+    background-image: url(img-donut.jpg);
+}
+
+.myrtle {
+    background-image: url(img-myrtle-ave.jpg);
+}
+
+.bedford {
+    background-image: url(img-bedford-bizarre.jpg);
+}
+
+.locations {
+    background-image: url(img-locations-background.jpg);
+    min-height: 500px;
+    width: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.locations-header {
+    margin: auto;
+    height: fit-content;
+    width: -moz-available;
+    width: fill-available;
+    width: -webkit-fill-available;
+}
+
+.location-box {
+    height: fit-content;
+    width: 300px;
+    background-color: black;
+    margin: 15px auto;
+    margin-bottom: 15px;
+}
+
+.location-box p {
+    margin: 50px;
+}
+
+.contact {
+    min-height: 200px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.copyright {
+    text-align: left;
+    margin: 20px;
+    opacity: 0.7;
+}
